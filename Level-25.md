@@ -11,7 +11,7 @@ https://matrix.voorivex.academy/the-final-fight-4dba54234d41bc0bbe7c7a8193f22a61
 it has 4 if conditions that we should avoid getting false for them:
 
 - first condition is `if (flag.length != '0'.charCodeAt(0))`
-it means our flag should be 48 character long 
+it means our flag should be 48 characters long 
 
 - second condition is `if (!/^the-final-fight-/.test(flag))`
 it means our flag should start with `the-final-fight-` string
