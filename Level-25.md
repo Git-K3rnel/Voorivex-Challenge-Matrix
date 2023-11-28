@@ -8,7 +8,7 @@ you see a javascript in this page :
 https://matrix.voorivex.academy/the-final-fight-4dba54234d41bc0bbe7c7a8193f22a61
 ```
 
-it has 4 if condition that we should avoid getting false for them:
+it has 4 if conditions that we should avoid getting false for them:
 
 - first condition is `if (flag.length != '0'.charCodeAt(0))`
 it means our flag should be 48 character long 
