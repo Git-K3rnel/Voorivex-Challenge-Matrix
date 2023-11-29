@@ -25,7 +25,7 @@ if (hash('SHA256', $_GET["code"]) == "92615529c262cc0d45e57aa13a4a067b11cd2e8fdc
 ?>
 ```
 
-just bruteforce the hash online or with john, you will get this password:
+just crack the hash online or with john, you will get this password:
 
 ```text
 P@ssw0rd@123
