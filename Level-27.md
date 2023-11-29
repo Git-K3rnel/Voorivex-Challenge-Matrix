@@ -44,7 +44,7 @@ you should provide two additional headers:
 send this request:
 
 ```text
-
+curl -H "X-Forwarded-For: 127.0.0.1" -H "X-Url-Scheme: http" https://matrix.voorivex.academy/the-final-fight-57a31594d5784b29e02960fd427f8703/?code=1
 ```
 
 you will get this:
