@@ -1,6 +1,6 @@
 # Level-30
 
-Level30(Final) (https://matrix.voorivex.academy/the-final-fight-9079c3d77eecb6699bb4a27b3cd249ec/)
+Level30 (Final) (https://matrix.voorivex.academy/the-final-fight-9079c3d77eecb6699bb4a27b3cd249ec/)
 
 Send this request:
 
