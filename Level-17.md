@@ -24,11 +24,22 @@ if ($_COOKIE['code'] == 'ｦｲｸ\'ｺｿ') {
 ?>
 ```
 
-do not set cookie in burp or browser storage, do it in console:
+the code is escaping the `'` character by putting `\` before it
+so it wants you to exactly send this string : `ｦｲｸ'ｺｿ`
+
+you can set cookie in burp or browser storage, or in console:
+once by using `''`
 
 ```javascript
 document.cookie = 'code=ｦｲｸ\'ｺｿ'
 ```
+
+or with `""` (pay attention that i removed `\` when using `""`)
+
+```javascript
+document.cookie = "code=ｦｲｸ'ｺｿ"
+```
+
 
 refresh the page you will get this :
 
